@@ -1,0 +1,14 @@
+form{
+    background-color: rgb(23, 88, 23);
+    width:200px;
+    height:170px;
+    padding: 15px;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+input{
+    background-color: white;
+    text-align:center;
+}

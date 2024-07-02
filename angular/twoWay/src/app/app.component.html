@@ -1,0 +1,13 @@
+<button>change mode</button>
+
+<div class="box">
+  <input type="text" [(ngModel)]="name" placeholder="Enter the name:-"> <br><br>
+  <input type="email" [(ngModel)]="em" placeholder="Enter the email"><br><br>
+  <input type="password" [(ngModel)]="pass" placeholder="Enter the password"><br><br>
+  <button (click)="show()">Signup</button>
+</div>
+<div class="box">
+<p>Name is:-{{name}}</p>
+<p>Email is:- {{em}}</p>
+<p>Password is:- {{pass}}</p>
+</div>
